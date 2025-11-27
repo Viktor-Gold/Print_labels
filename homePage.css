@@ -1,7 +1,9 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(brown, black);
+    height: 800px;
+    
 }
 
 #home_page {
@@ -16,6 +18,7 @@ body {
     background-image: url(image_qr/Наша_продукция.png);
     background-size: 100%;
     min-width: 350px;
+    height: 600px;
 }
 
 #header {
