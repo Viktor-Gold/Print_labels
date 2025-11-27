@@ -13,7 +13,7 @@ body {
     /* border: 1px solid #000; */
     box-shadow: 1px 1px 10px brown;
     border-radius: 10px;
-    background-image: url(/image_qr/Наша_продукция.png);
+    background-image: url(image_qr/Наша_продукция.png);
     background-size: 100%;
     min-width: 350px;
 }
