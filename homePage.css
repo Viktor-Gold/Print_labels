@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home_page {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid #000; */
+    box-shadow: 1px 1px 10px brown;
+    border-radius: 10px;
+    background-image: url(/image_qr/Наша_продукция.png);
+    background-size: 100%;
+    min-width: 350px;
+}
+
+#header {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#header div:nth-child(1) {
+    letter-spacing: 5px;
+    color: brown;
+    background: linear-gradient(
+    90deg,
+    brown 0%,    
+    red 50%,    
+    brown 100%    
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#header div:nth-child(2) {
+    color: brown;
+    background: linear-gradient(
+    90deg,
+    brown 0%,     
+    red 45%,    
+    red 55%,
+    brown 100% 
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#selected {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#user_choice {
+    text-align: center;
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#date {
+    margin-top: -20px;
+}
+
+#user_date, #clear_date {
+    background-color: bisque;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#clear_date {
+    padding: 11px;
+}
+
+#user_date::placeholder {
+    color: black;
+}
+
+#labels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#labels div {
+    text-shadow: 1px 1px 1px black;
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(165, 42, 42, 0.8);
+    border: 1px solid #000;
+    transition: 0.5s;
+}
+
+#labels a {
+    text-decoration: none;
+    color: bisque;
+}
+
+#labels div:hover {
+    cursor: pointer;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+#labels a:hover {
+    color: red;
+}
+
+
+#labels div:active {
+    transition: 0s;
+    cursor: pointer;
+    color: black;
+    background-color: red;
+}
+#labels a:active {
+    color: black;
+}
