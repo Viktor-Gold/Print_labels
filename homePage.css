@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     background: linear-gradient(brown, black);
-    height: 900px;
+    height: 100vh;
     
 }
 
@@ -18,7 +18,7 @@ body {
     background-image: url(image_qr/Наша_продукция.png);
     background-size: 100%;
     min-width: 350px;
-    height: 600px;
+    height: 90vh;
 }
 
 #header {
